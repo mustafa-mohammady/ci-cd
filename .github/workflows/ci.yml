@@ -18,7 +18,7 @@ jobs:
         run: npm run check
 
       - name: Run the test
-        run: npm run text:run
+        run: npm run test:run
 
       - name: Build the project
         run: npm run build
